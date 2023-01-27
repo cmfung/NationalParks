@@ -11,6 +11,6 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/parks', controllers.getParks);
-app.get('/parksByState/:state', controllers.getParksByState);
+app.get('/stateParks/:state', controllers.getParksByState);
 
 app.listen(PORT, () => { console.log(`Listening at http://localhost:${PORT}`); });
