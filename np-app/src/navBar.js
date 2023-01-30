@@ -1,10 +1,9 @@
+import './navBar.css'
 
 function NavBar() {
   return (
     <div>
-      <p>
-        NAVBAR HERE
-      </p>
+      Navbar goes here
     </div>
   )
 }
